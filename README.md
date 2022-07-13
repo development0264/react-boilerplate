@@ -9,15 +9,15 @@ All the required Basic Components are provided with this Boilerplate.
 - src
   - [Assets](#asstes)
   - [Components](#components)
-    - Header Component
-    - Side Panel Component
+    - [Header Component](#header-componenet)
+    - [Side Panel Component](#side-panel-componenet)
     - [UI](#ui)
-      - [Confirm Modal](#confirm_modal)
+      - [Confirm Modal](#confirm-modal)
       - [Loader](#loader)
       - [Modal](#modal)
       - [Panel](#panel)
-      - [Select Box](#select_box)
-      - [Text Box](#text_box)
+      - [Select Box](#select-box)
+      - [Text Box](#text-box)
       - [Toast](#toast)
       - [ToolTip](#tooltip)
   - [Containers](#containers)
@@ -34,6 +34,36 @@ All the required Basic Components are provided with this Boilerplate.
 > The above links will take you to the co-responding sections.
 
 ## Asstes
+
+**This folder contains all the assets of the project like Images,icons etc.**
+
+## Components
+
+**This Folder contains all the components of the project.**
+
+- ### Header Componenet
+
+  - The header showing on the App is comes from this Folder
+
+- ### Side Panel Componenet
+
+  - The Navmenu showing on the App is comes from this Folder
+
+- ## UI
+
+  - **This Folder contains the UI components like [Panel](#panel),[Modal](#modal) etc.**
+  - ### [Confirm Modal](src/Components/UI/ConfirmModal/index.tsx)
+    This is a simple modal which will just ask the user about something to confirm.\
+    for example :- get confirmation on delete
+  - ### Loader
+    This loader will rotate the image passed here.\
+    you can change it as you needed.
+  - ### Modal
+
+    This is a common modal component which is useful for getting user input and all other needs.\
+    The Confirm Modal is dependent of this modal\
+
+  - ### Panel
 
 <!-- In the project directory, you can run:
 

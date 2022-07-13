@@ -1,26 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+/**
+ *
+ * This is Main file of the app.
+ * all the required components which will affecting the whole app should declare here.
+ * Ex:- Toast Component
+ *
+ */
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+import { useSelector } from 'react-redux';
+import { BrowserRouter } from 'react-router-dom';
+import Toast from './Components/UI/Toast/Toast';
+import AppRoutes from './Routes';
+import { IReduxState } from './utils/types';
+
+const App = () => {
+  const ToastState = useSelector(
+    (state: IReduxState) => state.rootReducer.ToastReducer
   );
-}
+  return (
+    <>
+      <Toast
+        open={ToastState.open}
+        message={ToastState.message}
+        severity={ToastState.severity}
+      />
+      <BrowserRouter>
+        <AppRoutes />
+      </BrowserRouter>
+    </>
+  );
+};
 
 export default App;

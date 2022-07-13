@@ -15,6 +15,7 @@ withAuthInstance.interceptors.request.use(
     if (token) {
       config.headers.Authorization = `Bearer ${token}`;
     } else {
+      // localStorage.clear(); // use this if needed. this will remove all items from localstorage
       delete withAuthInstance.defaults.headers.common.Authorization;
     }
     return config;

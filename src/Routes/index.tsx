@@ -1,6 +1,6 @@
 /**
  *
- * The Routing of whole page will manage from here.
+ * The Routing of whole App will manage from here.
  *
  */
 

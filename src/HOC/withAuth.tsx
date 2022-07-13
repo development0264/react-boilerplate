@@ -1,6 +1,6 @@
 /**
  *
- * This is a Higher Order Component which will manage user authentication
+ * This is a Higher Order Component which will manage user authentication and role
  *
  */
 

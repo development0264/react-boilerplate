@@ -1,7 +1,7 @@
 /**
  *
  * This component is core in this boilerplate,
- * because all pages are created with this component.
+ * because all pages are created within this component.
  *
  */
 

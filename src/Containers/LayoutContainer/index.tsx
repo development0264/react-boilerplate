@@ -10,9 +10,9 @@
 import { Box, Toolbar } from '@mui/material';
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import { HeaderComponent } from '../Components';
-import { drawerWidth } from '../Components/HeaderComponent';
-import withAuth from '../HOC/withAuth';
+import { HeaderComponent } from '../../Components';
+import { drawerWidth } from '../../Components/HeaderComponent';
+import withAuth from '../../HOC/withAuth';
 
 interface ILayoutProps {}
 

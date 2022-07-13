@@ -6,7 +6,7 @@
 
 import { FC } from 'react';
 import { useRoutes } from 'react-router-dom';
-import LayoutContainer from '../LayoutContainer';
+import LayoutContainer from '../Containers/LayoutContainer';
 import Dashboard from '../Views/Dashboard';
 import Login from '../Views/Login';
 import NotFound from '../Views/NotFound';

@@ -9,7 +9,7 @@ import { LoginWrapper } from './styled';
 import TextBox from '../../Components/UI/TextBox';
 import { useDispatch, useSelector } from 'react-redux';
 import { LoginAction } from '../../Redux/Actions/AuthAction';
-import { IAuthReducer, IReduxState } from '../../utils/types';
+import { IAuthReducer, IReduxState } from '../../Utils/types';
 import { useNavigate } from 'react-router-dom';
 import * as yup from 'yup';
 import { Formik } from 'formik';

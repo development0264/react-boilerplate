@@ -10,7 +10,7 @@ import { useSelector } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
 import Toast from './Components/UI/Toast/Toast';
 import AppRoutes from './Routes';
-import { IReduxState } from './utils/types';
+import { IReduxState } from './Utils/types';
 
 const App = () => {
   const ToastState = useSelector(

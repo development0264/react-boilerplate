@@ -8,7 +8,7 @@
 import React from 'react';
 import Snackbar from '@mui/material/Snackbar';
 import MuiAlert, { AlertProps } from '@mui/material/Alert';
-import { IToastProps } from '../../../utils/types';
+import { IToastProps } from '../../../Utils/types';
 import { useDispatch } from 'react-redux';
 import { ToastAction } from '../../../Redux/Actions/ToastAction';
 

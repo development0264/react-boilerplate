@@ -14,7 +14,7 @@ import SidePanelComponent from '../SidePanelComponent';
 import { useDispatch, useSelector } from 'react-redux';
 import { LogoutAction } from '../../Redux/Actions/AuthAction';
 import { useNavigate } from 'react-router-dom';
-import { IReduxState } from '../../utils/types';
+import { IReduxState } from '../../Utils/types';
 
 // the width of drawer
 

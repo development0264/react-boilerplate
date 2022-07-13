@@ -1,4 +1,4 @@
-import { IToastProps } from '../../utils/types';
+import { IToastProps } from '../../Utils/types';
 
 export const TOAST_INIT: any = 'TOAST_INIT';
 export const TOAST_SHOW = 'TOAST_SHOW';

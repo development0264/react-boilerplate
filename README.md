@@ -9,8 +9,8 @@ All the required Basic Components are provided with this Boilerplate.
 - src
   - [Assets](#asstes)
   - [Components](#components)
-    - [Header Component](#header-componenet)
-    - [Side Panel Component](#side-panel-componenet)
+    - [Header Component](#header-component)
+    - [Side Panel Component](#side-panel-component)
     - [UI](#ui)
       - [Confirm Modal](#confirm-modal)
       - [Loader](#loader)
@@ -48,11 +48,11 @@ All the required Basic Components are provided with this Boilerplate.
 
 **This Folder contains all the components of the project.**
 
-- ### `Header Componenet`
+- ### `Header Component`
 
   - The header showing on the App is comes from this Folder
 
-- ### `Side Panel Componenet`
+- ### `Side Panel Component`
 
   - The Navmenu showing on the App is comes from this Folder
 

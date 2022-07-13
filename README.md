@@ -7,7 +7,7 @@ All the required Basic Components are provided with this Boilerplate.
 
     -public
     -src
-        -[Assets](#asstes)
+##        -[Assets](#asstes)
 
 ## Asstes
 

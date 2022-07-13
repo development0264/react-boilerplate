@@ -7,3 +7,8 @@ All the required Basic Components are provided with this Boilerplate.
 
     -public
     -src
+        -[Assets](#asstes)
+
+## Asstes
+
+In the project directory, you can run:

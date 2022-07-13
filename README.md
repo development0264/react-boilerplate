@@ -4,8 +4,10 @@ This Boilerplate contains a react app with typescript , MUI , ReduxSaga.
 All the required Basic Components are provided with this Boilerplate.
 
 ## Code Structure
-- [Caption](https://example.com)
-- Another list item
+
+- public
+- src
+  - [Assets](#asstes)
 
 ## Asstes
 

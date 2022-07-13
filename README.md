@@ -103,8 +103,9 @@ All the required Basic Components are provided with this Boilerplate.
   - ### [Layout Container](src/Containers/LayoutContainer/index.tsx)
     This is main layout container of the app.\
     which will gives you a view with header,sidebar and responsiveness.
+    >
     > only made changes in this component if it's required.
-
+    >
 - ## Helpers
 
   All the helper functions should declare here.
